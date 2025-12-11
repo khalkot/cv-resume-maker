@@ -1,6 +1,13 @@
 import { useState } from 'react'
-import './styles/App.css'
+import './App.css'
+import Header from './components/custom/Header';
 
 export default function App() {
-  return ;
+
+  return (
+    <div>
+    <Header/>
+    Landing screen
+  </div>
+  );
 }
