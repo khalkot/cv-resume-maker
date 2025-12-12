@@ -7,7 +7,10 @@ function PreviewSection() {
   const {resumeInfo,setResumeInfo}=useContext(ResumeInfoContext)
   
   return (
-    <div>
+    <div className='shadow-lg h-full p-14 border-t-[20px]'
+    style={{borderColor:resumeInfo?.themeColor
+        
+    }}>
         Review Section
         {/* Personal Detail */} 
         <PersonalDetailsPreview resumeInfo = {resumeInfo}/>
