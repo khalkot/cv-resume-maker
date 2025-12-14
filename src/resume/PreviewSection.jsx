@@ -8,7 +8,7 @@ import SkillsPreview from './components/preview/SkillsPreview'
 
 function PreviewSection() {
   
-  const {resumeInfo,setResumeInfo}=useContext(ResumeInfoContext)
+  const {resumeInfo}=useContext(ResumeInfoContext)
   
   return (
     <div className='shadow-lg h-full p-14 border-t-20'
