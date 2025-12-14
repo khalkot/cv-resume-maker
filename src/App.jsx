@@ -19,11 +19,11 @@ export default function App() {
 
       <div className='grid grid-cols-1 md:grid-cols-2 p-10 gap-10'>
 
-        {/*   < Resume Section>   */}
-        <PreviewSection/>
-
         {/*   < Form Section>   */}
         <FormSection/>
+
+        {/*   < Resume Section>   */}
+        <PreviewSection/>
 
       </div>
 
